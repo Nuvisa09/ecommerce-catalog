@@ -1,27 +1,19 @@
 {
-  "compilerOptions": {
-<<<<<<< HEAD
-    "target": "es5",
-    "module": "esnext",
-    "baseUrl": "./",
-    "moduleResolution": "node",
-    "paths": {
-      "@/*": [
-        "src/*"
+    "compilerOptions": {
+      "target": "es5",
+      "module": "esnext",
+      "baseUrl": "./",
+      "moduleResolution": "node",
+      "paths": {
+        "@/*": ["src/*"]
+      },
+      "lib": [
+        "esnext",
+        "dom",
+        "dom.iterable",
+        "scripthost"
       ]
     },
-    "lib": [
-      "esnext",
-      "dom",
-      "dom.iterable",
-      "scripthost"
-    ]
+    "exclude": ["node_modules", "dist"]
   }
-=======
-    "paths": {
-      "@/*": ["./src/*"]
-    }
-  },
-  "exclude": ["node_modules", "dist"]
->>>>>>> 921246f4f52787921f4c1f731e7132f8718b84b4
-}
+  
