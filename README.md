@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # e-commerce
 
 ## Project setup
@@ -54,7 +52,3 @@ npm run dev
 ```sh
 npm run build
 ```
->>>>>>> 921246f4f52787921f4c1f731e7132f8718b84b4
-=======
-# ecommerce-catalog
->>>>>>> 6b930d08b60dabe6c5cbe0ddaf736c4ba7421669
