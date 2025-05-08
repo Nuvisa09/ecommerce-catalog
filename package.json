@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "e-commerce",
   "version": "0.1.0",
   "private": true,
@@ -40,4 +41,23 @@
     "last 2 versions",
     "not dead"
   ]
+=======
+  "name": "vue-project",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "vite": "^6.2.4",
+    "vite-plugin-vue-devtools": "^7.7.2"
+  }
+>>>>>>> 921246f4f52787921f4c1f731e7132f8718b84b4
 }

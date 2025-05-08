@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .DS_Store
 node_modules
 /dist
@@ -8,16 +9,45 @@ node_modules
 .env.*.local
 
 # Log files
+=======
+# Logs
+logs
+*.log
+>>>>>>> 921246f4f52787921f4c1f731e7132f8718b84b4
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+<<<<<<< HEAD
 
 # Editor directories and files
 .idea
 .vscode
+=======
+lerna-debug.log*
+
+node_modules
+.DS_Store
+dist
+dist-ssr
+coverage
+*.local
+
+/cypress/videos/
+/cypress/screenshots/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+>>>>>>> 921246f4f52787921f4c1f731e7132f8718b84b4
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+<<<<<<< HEAD
+=======
+
+*.tsbuildinfo
+>>>>>>> 921246f4f52787921f4c1f731e7132f8718b84b4

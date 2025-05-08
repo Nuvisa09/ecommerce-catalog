@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+<<<<<<< HEAD
     "target": "es5",
     "module": "esnext",
     "baseUrl": "./",
@@ -16,4 +17,11 @@
       "scripthost"
     ]
   }
+=======
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+>>>>>>> 921246f4f52787921f4c1f731e7132f8718b84b4
 }
