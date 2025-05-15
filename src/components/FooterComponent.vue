@@ -84,7 +84,7 @@ export default {
 }
 
 .footer-column a:hover {
-  color:  var(--color-biruMuda);;
+  color:  var(--color-biruTua);;
 }
 
 .footer-bottom {
