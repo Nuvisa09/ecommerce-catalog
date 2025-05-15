@@ -1,0 +1,11 @@
+@import './base.css';
+:root {
+  --color-biruTua: #002772;
+  --color-unguMuda: #FDE2FF;
+  --color-hitam: #1E1E1E;
+  --color-unguTua: #720060;
+  --color-biruMuda: #D6E6FF;
+  --color-abuabu: #3F3F3F;
+  --color-abuMuda: #DCDCDC;
+  --color-putih: #FFFFFF;
+}
