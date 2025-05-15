@@ -84,7 +84,7 @@ export default {
 .product-catalog {
   padding: 20px;
   text-align: center;
-  background: var(--color-lima);
+  background: var(--color-putih);
 }
 
 .product-cards {
