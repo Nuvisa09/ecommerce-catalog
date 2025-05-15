@@ -11,9 +11,9 @@
       >
         <img :src="product.image" :alt="product.title" class="product-image" />
         <div class="product-info">
-          <h3>{{ product.title }}</h3>
+          <h3 class="product-title">{{ product.title }}</h3>
           <p class="price">${{ product.price }}</p>
-
+        </div>
           <div class="rating">
             <span class="rating-value"> Rating {{ product.rating }} / 5</span>
           </div>
@@ -23,10 +23,8 @@
                 {{ product.loved ? '❤️' : '🤍' }}
               </span>
             </div>
-  
             <p class="sold-count">{{ product.sold }} sold</p>
           </div>
-        </div>
       </div>
     </div>
   </div>
@@ -103,6 +101,10 @@ export default {
   text-align: center;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-title {
+  height: 100px;
 }
 
 .product-image {
